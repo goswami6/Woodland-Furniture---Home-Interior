@@ -69,7 +69,7 @@ const ContactPage = () => {
               Contact The Best Home Interior Designers
             </h1>
             <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] max-w-[900px] mx-auto">
-              At D{'\u2019'}LIFE we want to make finding the designs you love as easy &amp; exciting as possible. To provide stunning solutions to the residential market and to meet the ever-growing demands, we have expanded our showrooms to all over India with presence in Mumbai, Navi Mumbai, Pune, Hyderabad, Bangalore, Madurai, Mysore, Kerala, Chennai, Nagercoil, Coimbatore &amp; Mangalore. Scroll down to find out more locations we serve. Contact us or walk into our showrooms and let our professional interior designers help you decorate your home and find furniture you{'\u2019'}ll love. We would love to help you with your next project!
+              At Woodland Furniture & Home Interiors, we want to make finding the designs you love as easy and exciting as possible. Based in Kothrud, Pune, we have been providing stunning interior solutions across all areas of Pune since 2014. Visit our showroom or contact us and let our professional interior designers help you transform your home with custom furniture you'll love. We specialize in modular kitchens, wardrobes, TV units, sofa sets, dining tables, pooja mandirs, and complete home & office interiors using premium Teak-wood and commercial plywood. We would love to help you with your next project!
             </p>
           </div>
         </div>

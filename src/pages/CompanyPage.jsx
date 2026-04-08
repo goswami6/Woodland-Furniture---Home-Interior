@@ -277,11 +277,11 @@ const CompanyPage = () => {
             {/* Right - Content */}
             <div className="w-full md:w-[55%] lg:w-[58%]">
               <h3 className="text-[22px] sm:text-[26px] md:text-[28px] lg:text-[32px] font-bold text-[#333] mb-4 md:mb-6 leading-tight">
-                Best Interior Design Company in India
+                Best Interior Design Company in Pune
               </h3>
               <div className="text-[14px] sm:text-[15px] md:text-[15px] text-[#4c4c4c] leading-[1.9] text-justify mb-6 md:mb-8">
                 <p>
-                  D{'\u2019'}LIFE started with commercial space and residential furnishing in 2004 at Kochi, as its main office. Subsequently, for the convenience of people from distant places, we opened showrooms in Kottayam, Trivandrum, and Calicut. More branches are now open at Thrissur, Kollam, Bangalore, Chennai, Hyderabad, Pune, Mumbai, Navi Mumbai, Coimbatore &amp; Mangalore. To cater the increasing demand for quality Interiors, D{'\u2019'}LIFE Kochi has started 2 more showrooms in Edappally and Vyttila. As part of the expansion, over the years, we also started new showrooms in other states such as Navi Mumbai, Hyderabad, Pune, Bengaluru, Mysore, Mangalore, Chennai, Coimbatore, Madurai and Nagercoil to expand our reach and provide our services to a wider audience. Currently, we serve clients through 30 showrooms/branches. Our marketing office in UAE further enables us to assist NRI clients who are looking to furnish their flats or houses in India, ensuring that they receive the same quality interiors and services as our local customers.
+                  Woodland Furniture & Home Interiors started its journey in 2014 from Kothrud, Pune with a vision to deliver premium quality custom furniture and complete home interior solutions. Over the years, we have successfully completed projects across all major areas of Pune including Baner, Hinjewadi, Wakad, Aundh, Kharadi, Hadapsar, Sinhagad Road, Pimpri-Chinchwad, Viman Nagar and Deccan. Our in-house manufacturing unit ensures every piece of furniture is crafted with precision using the finest Teak-wood (Sagwan) and commercial plywood. With a dedicated team of skilled designers and craftsmen, we have served over 2000+ happy families in Pune, making us one of the most trusted names in home interiors. We believe in delivering quality work on time, and our growing list of satisfied customers is a testament to our commitment.
                 </p>
               </div>
               <Link to="/contact" className="inline-block px-7 py-3 bg-[#814882] hover:bg-[#6a3a6b] text-white text-[13px] sm:text-[14px] uppercase tracking-wider transition-colors font-medium">
@@ -296,10 +296,10 @@ const CompanyPage = () => {
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: '28+', label: 'Showrooms' },
-              { value: '1600+', label: 'Team Members' },
-              { value: '15+', label: 'Cities' },
-              { value: '14000+', label: 'Happy Clients' },
+              { value: '10+', label: 'Years Experience' },
+              { value: '50+', label: 'Team Members' },
+              { value: '2000+', label: 'Projects Completed' },
+              { value: '2000+', label: 'Happy Clients' },
             ].map((stat, i) => (
               <div key={i} className="py-4">
                 <div className="text-[28px] sm:text-[32px] font-bold text-[#814882]">{stat.value}</div>

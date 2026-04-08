@@ -131,7 +131,7 @@ const Navbar = () => {
             <img
               src="/images/woodland-logo.png"
               alt="Woodland Furniture & Home Interior"
-              className={`w-auto transition-[height] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${scrolled ? 'h-[36px] sm:h-[40px] lg:h-[42px]' : 'h-[40px] sm:h-[45px] lg:h-[50px] xl:h-[55px]'}`}
+              className={`w-auto transition-[height] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${scrolled ? 'h-[42px] sm:h-[48px] lg:h-[52px]' : 'h-[48px] sm:h-[55px] lg:h-[62px] xl:h-[68px]'}`}
             />
           </Link>
 
@@ -250,7 +250,7 @@ const Navbar = () => {
         {/* Mobile menu header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-[#f0f0f0]">
           <Link to="/" onClick={() => setIsOpen(false)}>
-            <img src="/images/woodland-logo.png" alt="Woodland" className="h-[35px] w-auto" />
+            <img src="/images/woodland-logo.png" alt="Woodland" className="h-[42px] w-auto" />
           </Link>
           <button onClick={() => setIsOpen(false)} className="w-9 h-9 flex items-center justify-center rounded-full bg-[#f5f5f5] hover:bg-[#eee] transition-colors">
             <svg viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="2" className="w-4 h-4">

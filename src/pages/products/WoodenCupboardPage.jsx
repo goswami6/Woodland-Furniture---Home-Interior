@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import PageBanner from '../../components/PageBanner';
+import WhyChooseSection from '../../components/WhyChooseSection';
 
 
 const galleryImages = [
@@ -138,21 +139,7 @@ const WoodenCupboardPage = () => {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-[25px] sm:py-[45px] lg:py-[60px] bg-[#f8f8f8] overflow-hidden" data-anim="feat">
-        <div className="section-head section-head-gray mb-[25px] sm:mb-[35px]"><h2>WHY CHOOSE US</h2></div>
-        <div className="w-full px-5 md:px-[60px] min-[1441px]:px-[100px] mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[15px] sm:gap-[20px]">
-            {features.map((f, i) => (
-              <div key={i} className="bg-white p-[20px] sm:p-[25px] shadow-[0_3px_25px_rgba(0,0,0,0.06)] hover:shadow-[0_3px_25px_rgba(0,0,0,0.12)] transition-shadow duration-300 rounded-[5px]" style={fadeStyle('feat', i * 0.1)}>
-                <div className="text-[28px] mb-3">{f.icon}</div>
-                <h4 className="font-bold text-[15px] sm:text-[16px] text-[#333] mb-2 uppercase" style={{ fontFamily: "'Mulish', sans-serif" }}>{f.title}</h4>
-                <p className="text-[13px] sm:text-[14px] text-[#4c4c4c] leading-[1.8]">{f.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <WhyChooseSection features={features} />
 
       {/* Gallery */}
       <section className="py-[25px] sm:py-[45px] lg:py-[60px] bg-white overflow-hidden" data-anim="gallery">

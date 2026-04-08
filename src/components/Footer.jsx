@@ -50,7 +50,7 @@ const Footer = () => {
                 <img
                   src="/images/woodland-logo.png"
                   alt="Woodland Furniture & Home Interior"
-                  className="h-[50px] w-auto bg-white rounded-lg px-3 py-1.5"
+                  className="h-[62px] w-auto bg-white rounded-lg px-3 py-2"
                 />
               </div>
               <p className="text-[12px] min-[992px]:text-[13px] text-white/60 leading-[1.8] mb-5">

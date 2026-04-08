@@ -14,7 +14,7 @@ const projectImages = [
   'https://images.unsplash.com/photo-1600573472556-e636c2acda9e?w=600&q=80',
 ];
 
-const cities = ['All', 'Bengaluru', 'Chennai', 'Kochi', 'Thiruvananthapuram', 'Thrissur', 'Kozhikode'];
+const cities = ['All', 'Kothrud', 'Baner', 'Hinjewadi', 'Wakad', 'Aundh', 'Kharadi'];
 
 const ProjectsPage = () => {
   const [activeCity, setActiveCity] = useState('All');

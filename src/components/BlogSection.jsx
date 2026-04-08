@@ -21,7 +21,7 @@ const blogs = [
     link: '/blog',
   },
   {
-    title: 'Century Ethos Apartment Interior Design in Bengaluru – A Modern Luxury Home',
+    title: 'Premium 3BHK Apartment Interior Design in Baner – A Modern Luxury Home',
     date: 'February 06, 2026',
     image: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=800&q=80',
     link: '/blog',
