@@ -66,6 +66,8 @@ const Navbar = () => {
         { name: 'Dining Table', path: '/products/dining-table', icon: '🍽️' },
         { name: 'Modular Mandir', path: '/products/modular-mandir', icon: '🕉️' },
         { name: 'Curtains', path: '/products/curtains', icon: '🪟' },
+        { name: 'Home Interior', path: '/products/home-interior', icon: '🏠' },
+        { name: 'Office Interior', path: '/products/office-interior', icon: '🏢' },
       ]
     },
     { name: 'Offers', path: '/offers' },

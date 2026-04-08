@@ -17,6 +17,8 @@ import WoodenCupboardPage from './pages/products/WoodenCupboardPage';
 import DiningTablePage from './pages/products/DiningTablePage';
 import ModularMandirPage from './pages/products/ModularMandirPage';
 import CurtainsPage from './pages/products/CurtainsPage';
+import HomeInteriorPage from './pages/products/HomeInteriorPage';
+import OfficeInteriorPage from './pages/products/OfficeInteriorPage';
 import OffersPage from './pages/OffersPage';
 import ProjectsPage from './pages/ProjectsPage';
 import GalleryPage from './pages/GalleryPage';
@@ -41,6 +43,8 @@ const App = () => {
           <Route path="/products/dining-table" element={<DiningTablePage />} />
           <Route path="/products/modular-mandir" element={<ModularMandirPage />} />
           <Route path="/products/curtains" element={<CurtainsPage />} />
+          <Route path="/products/home-interior" element={<HomeInteriorPage />} />
+          <Route path="/products/office-interior" element={<OfficeInteriorPage />} />
           <Route path="/offers" element={<OffersPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />

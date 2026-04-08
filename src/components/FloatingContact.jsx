@@ -105,9 +105,9 @@ const FloatingContact = () => {
             <div className="flex-1 flex items-center justify-center relative overflow-visible">
               <Link
                 to="/"
-                className="absolute bottom-1 w-[64px] h-[64px] rounded-full bg-white border-[3px] border-[#814882] shadow-[0_-3px_15px_rgba(129,72,130,0.3)] flex items-center justify-center hover:shadow-[0_-4px_20px_rgba(129,72,130,0.4)] transition-shadow"
+                className="absolute bottom-1 w-[72px] h-[72px] rounded-full bg-white border-[3px] border-[#814882] shadow-[0_-3px_15px_rgba(129,72,130,0.3)] flex items-center justify-center hover:shadow-[0_-4px_20px_rgba(129,72,130,0.4)] transition-shadow"
               >
-                <img src="/images/woodland-logo.png" alt="Woodland" className="w-[40px] h-[40px] object-contain" />
+                <img src="/images/woodland-logo.png" alt="Woodland" className="w-[46px] h-[46px] object-contain" />
               </Link>
             </div>
 

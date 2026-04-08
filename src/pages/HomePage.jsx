@@ -6,6 +6,7 @@ import WhatWeDo from '../components/WhatWeDo';
 import ProjCompletion from '../components/ProjCompletion';
 import FlxSection from '../components/FlxSection';
 import CustomerSection from '../components/CustomerSection';
+import GoogleReviews from '../components/GoogleReviews';
 import VideoSection from '../components/VideoSection';
 import FactorySection from '../components/FactorySection';
 import BlogSection from '../components/BlogSection';
@@ -20,6 +21,7 @@ const HomePage = () => {
       <ProjCompletion />
       <FlxSection />
       <CustomerSection />
+      <GoogleReviews />
       <VideoSection />
       <FactorySection />
       <BlogSection />
