@@ -1,38 +1,9 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { blogs } from '../data/blogs';
 
-const blogs = [
-  {
-    title: "How Woodland Interiors Turned Interior Design into a Complete Lifestyle Experience",
-    date: 'March 27, 2026',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
-    link: '/blog',
-  },
-  {
-    title: 'Creating Seamless Interiors with Handleless Kitchen Designs',
-    date: 'March 06, 2026',
-    image: 'https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=800&q=80',
-    link: '/blog',
-  },
-  {
-    title: "A Dream Home, Made Picture-perfect With Woodland at Pune",
-    date: 'February 20, 2026',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
-    link: '/blog',
-  },
-  {
-    title: 'Premium 3BHK Apartment Interior Design in Baner – A Modern Luxury Home',
-    date: 'February 06, 2026',
-    image: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=800&q=80',
-    link: '/blog',
-  },
-  {
-    title: "Why Woodland Furniture Is Pune's Most Trusted Interior Design Company",
-    date: 'January 29, 2026',
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80',
-    link: '/blog',
-  },
-];
+
+
 
 const BlogSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -148,7 +119,8 @@ const BlogSection = () => {
                 className="flex-shrink-0"
                 style={{ width: `calc(${itemWidthPercent}% - ${gapPx * (itemsPerView - 1) / itemsPerView}px)` }}
               >
-                <Link to={blog.link} className="block group" draggable={false}>
+                <Link to={`/blog/${blog.slug}`} className="block group" draggable={false}>
+
                   <div className="overflow-hidden rounded-t-[5px]">
                     <img
                       src={blog.image}

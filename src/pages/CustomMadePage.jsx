@@ -1,11 +1,11 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const categories = [
   { name: 'Living', image: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=800&q=80', path: '/products', size: 'large' },
   { name: 'Bedroom', image: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?w=800&q=80', path: '/products', size: 'small' },
   { name: 'Kitchen', image: 'https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=800&q=80', path: '/products', size: 'small' },
-  { name: 'Partition', image: 'https://images.unsplash.com/photo-1616137466211-f02fc81d5e3b?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1616137466211-f02fc81d5e3b?w=800&q=80', path: '/products', size: 'large' },
+  { name: 'Partition', image: 'https://images.openai.com/static-rsc-4/HPYEZniaVaz70497z1a5tDW5Hel7PwIyhL69ENorI6Fm5wsIw0e7Zo3k5LtF6qjH_O8h2raKIrgz1p97rRa2dLQmHRBDTeTtuDx7HSa6AcSfQagcySGteFcr1Qd0Stc9rz-x2XYcaJVW7enbZH7GGbHBOnA-uxbWvqQjKhFZsQkGZ-3JKprlWGfCw0-jgTB2?purpose=fullsize', image2x: 'https://images.openai.com/static-rsc-4/HPYEZniaVaz70497z1a5tDW5Hel7PwIyhL69ENorI6Fm5wsIw0e7Zo3k5LtF6qjH_O8h2raKIrgz1p97rRa2dLQmHRBDTeTtuDx7HSa6AcSfQagcySGteFcr1Qd0Stc9rz-x2XYcaJVW7enbZH7GGbHBOnA-uxbWvqQjKhFZsQkGZ-3JKprlWGfCw0-jgTB2?purpose=fullsize', path: '/products', size: 'large' },
   { name: 'Dining', image: 'https://images.unsplash.com/photo-1617104678098-de229db51175?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1617104678098-de229db51175?w=800&q=80', path: '/products', size: 'medium' },
   { name: 'Kidsroom', image: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?w=800&q=80', image2x: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?w=800&q=80', path: '/products', size: 'medium' },
 ];
@@ -34,7 +34,7 @@ const interiorSections = [
     image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=900&q=80',
     title: 'Give a Personalized Touch to Your Dream Home',
     type: 'paragraph',
-    text: "We bring customization to your fingertips, from the initial consultation through the end process; our team of interior designers will provide you with all the support and advice so you get a personalized touch in your dream home. Over the years, we have worked with 14000+ clients and we provide interior design and furnishing services, which are more than just about styles and finishes. D\u2019LIFE provides you a fully bespoke service on home interior design to your brief. All our products are custom made from the finest materials. With respect for the past and an eye on the future, our high level of machinery and quality checks help you realize your dream home interiors with fully customized products and quality.",
+    text: "We bring customization to your fingertips, from the initial consultation through the end process; our team of interior designers will provide you with all the support and advice so you get a personalized touch in your dream home. Over the years, we have worked with 14000+ clients and we provide interior design and furnishing services, which are more than just about styles and finishes. Woodland Furniture provides you a fully bespoke service on home interior design to your brief. All our products are custom made from the finest materials. With respect for the past and an eye on the future, our high level of machinery and quality checks help you realize your dream home interiors with fully customized products and quality.",
     cta: 'Reach Our Expert Designer',
   },
 ];

@@ -3,65 +3,67 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 const customers = [
   {
     name: 'Ms. Honey Rose',
-    msg: 'Finding a passionate professional to craft my…',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80',
+    msg: 'Finding a passionate professional to craft my home interiors was challenging, but Woodland exceeded all expectations.',
+    image: '/reviews/r1.jpeg',
     link: '/testimonials/client/honey-rose/',
   },
   {
-    name: 'Prannoy HS',
-    msg: 'Structured, organized and pleasant to deal with.…',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80',
+    name: 'Mr. Prannoy H S',
+    msg: 'Structured, organized, and pleasant to deal with. The entire process was smooth and hassle-free.',
+    image: '/reviews/r2.jpeg',
     link: '/testimonials/client/prannoy-hs/',
   },
   {
     name: 'Mr. Suresh Chandran',
-    msg: 'Working with Woodland was such a wonderful…',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80',
-    link: '/testimonials/client/mr-suresh-chandran-kallara-kottayam/',
+    msg: 'Working with Woodland was such a wonderful experience. Their attention to detail is impressive.',
+    image: '/reviews/r3.jpeg',
+    link: '/testimonials/client/mr-suresh-chandran/',
   },
   {
     name: 'Mr. Johnson Daniel',
-    msg: 'Dear Woodland team, we are well pleased…',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80',
-    link: '/testimonials/client/mr-johnson-rajan-pathanamthitta/',
+    msg: 'Dear Woodland team, we are extremely pleased with the final outcome. Great job done!',
+    image: '/reviews/r4.jpeg',
+    link: '/testimonials/client/mr-johnson-daniel/',
   },
   {
     name: 'Mr. Surendra N M & Family',
-    msg: 'We are extremely satisfied with the service…',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80',
-    link: '/testimonials/client/mr-surendra-n-m-family/',
+    msg: 'We are extremely satisfied with the service and quality of work delivered by the team.',
+    image: '/reviews/r5.jpeg',
+    link: '/testimonials/client/mr-surendra-nm-family/',
   },
   {
     name: 'Mr. Kiran Nair & Family',
-    msg: 'Proper communication was maintained by Woodland team…',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80',
+    msg: 'Proper communication was maintained throughout the project. Highly recommended!',
+    image: '/reviews/r6.jpeg',
     link: '/testimonials/client/mr-kiran-nair-family/',
   },
   {
     name: 'Mr. Arun Kumar',
-    msg: 'Excellent craftsmanship and timely delivery of…',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80',
+    msg: 'Excellent craftsmanship and timely delivery of furniture. Truly professional service.',
+    image: '/reviews/r7.jpeg',
     link: '/testimonials/client/mr-arun-kumar/',
   },
   {
     name: 'Ms. Deepa Menon',
-    msg: 'Very professional team with great attention to…',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80',
+    msg: 'Very professional team with great attention to detail. Loved the final interiors!',
+    image: '/reviews/r1.jpeg',
     link: '/testimonials/client/ms-deepa-menon/',
   },
   {
     name: 'Mr. Rajesh Pillai',
-    msg: 'Happy with the overall interior work done by…',
-    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&q=80',
+    msg: 'Happy with the overall interior work done by Woodland. Quality and finish are top-notch.',
+    image: '/reviews/r2.jpeg',
     link: '/testimonials/client/mr-rajesh-pillai/',
   },
   {
     name: 'Mrs. Anitha Thomas',
-    msg: 'Woodland made our dream home a reality with…',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80',
+    msg: 'Woodland made our dream home a reality with beautiful designs and perfect execution.',
+    image: '/reviews/r3.jpeg',
     link: '/testimonials/client/mrs-anitha-thomas/',
   },
 ];
+
+
 
 const CustomerSection = () => {
   const [currentPage, setCurrentPage] = useState(0);

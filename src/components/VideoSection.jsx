@@ -3,60 +3,81 @@ import React, { useState } from 'react';
 const VideoSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const videoId = 'HohSXHPC5-c';
-  const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  // 👉 Use your own thumbnail (no watermark)
+  const thumbnailUrl =
+    'https://images.openai.com/static-rsc-4/CEAIXnpUDBS7-0ejCNeTQVGWa3ViSZ1z2EBPqhw0y6BHQOwoAm1SvcvjZsFGfnSUDslYOd-4lTR02MJmYLoSiwlMKXpZfL2_r4LsN0xn1gug4-MnJnbf2erkaxA9DXTrXC_M89pe3vezQEx7RIthUPnryggSVt5Be8ZyLlqlbdWyqqaWkTeJL7kimSMnYv0W?purpose=fullsize';
+
+  const videoId = 'qbGDyBQ2_Pw';
 
   return (
-    <section id="videoSec" className="relative">
+    <section id="videoSec" className="relative py-10">
       <div className="w-full px-5 md:px-[60px] min-[1441px]:px-[100px] mx-auto">
-        <div className="w-full h-[285px] min-[575px]:h-[350px] md:h-[450px] lg:h-[550px] xl:h-[650px] min-[1390px]:h-[750px] relative">
-          {!isPlaying ? (
+        
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+
+          {/* ================= THUMBNAIL ================= */}
+          {!isPlaying && (
             <button
               onClick={() => setIsPlaying(true)}
-              className="w-full h-full relative block cursor-pointer border-0 p-0 bg-black"
-              aria-label="Play video"
+              className="w-full h-full relative group"
             >
+              {/* Image */}
               <img
                 src={thumbnailUrl}
-                alt="Woodland Furniture Corporate Video"
-                className="w-full h-full object-cover"
-                loading="lazy"
+                alt="Interior Design"
+                className="w-full h-full object-cover transform group-hover:scale-105 transition duration-700"
               />
-              {/* Overlay */}
-              <div className="absolute inset-0 flex flex-wrap justify-center content-center">
-                {/* Play button */}
-                <div className="w-[34px] h-[34px] min-[575px]:w-[44px] min-[575px]:h-[44px] lg:w-[55px] lg:h-[55px] xl:w-[66px] xl:h-[66px] min-[1390px]:w-[77px] min-[1390px]:h-[77px] min-[1681px]:w-[88px] min-[1681px]:h-[88px] mb-[30px] min-[575px]:mb-[35px] lg:mb-[45px] xl:mb-[55px] min-[1390px]:mb-[65px] min-[1681px]:mb-[75px] rounded-full bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] flex items-center justify-center animate-playBtn">
-                  <svg
-                    className="w-[9px] min-[575px]:w-[11px] lg:w-[13px] xl:w-[15px] min-[1390px]:w-[19px] min-[1681px]:w-[21px] ml-[2px]"
-                    viewBox="0 0 24 24"
-                    fill="#333"
-                  >
+
+              {/* Dark Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+              {/* Content */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+
+                {/* Play Button */}
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center shadow-xl group-hover:scale-110 transition duration-300">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="#000">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
+
                 {/* Title */}
-                <div className="w-full text-center text-white font-bold uppercase text-[24px] min-[575px]:text-[30px] md:text-[36px] lg:text-[42px] xl:text-[48px] min-[1390px]:text-[54px] min-[1681px]:text-[65px] mb-[18px] min-[575px]:mb-[24px] lg:mb-[28px] xl:mb-[32px] min-[1681px]:mb-[40px]">
-                  Corporate story
-                </div>
-                {/* Watch Video */}
-                <div className="w-fit text-center text-white font-light text-[12px] min-[575px]:text-[15px] lg:text-[18px] xl:text-[22px] min-[1390px]:text-[24px] relative after:absolute after:content-[''] after:bottom-[-10px] after:left-0 after:w-full after:h-[2px] after:bg-white hover:text-[#814882] hover:after:bg-[#814882] transition-all duration-500">
+                <h2 className="mt-6 text-white font-bold uppercase text-[22px] md:text-[36px] lg:text-[48px] tracking-wide">
+                  Corporate Story
+                </h2>
+
+                {/* Subtitle */}
+                <p className="mt-2 text-white/80 text-sm md:text-lg border-b border-white/50 pb-1 group-hover:text-[#814882] group-hover:border-[#814882] transition">
                   Watch Video
-                </div>
+                </p>
               </div>
             </button>
-          ) : (
-            <iframe
-              width="1920"
-              height="929"
-              loading="lazy"
-              src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0&showinfo=0`}
-              title="Woodland Furniture & Home Interior"
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-              className="w-full h-full"
-            />
           )}
+
+          {/* ================= VIDEO ================= */}
+          {isPlaying && (
+            <div className="relative w-full h-full">
+
+              {/* Close Button */}
+              <button
+                onClick={() => setIsPlaying(false)}
+                className="absolute top-4 right-4 z-10 bg-black/70 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#814882] transition"
+              >
+                ✕
+              </button>
+
+              {/* Video */}
+              <iframe
+                className="w-full h-full"
+                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3`}
+                title="Interior Design Video"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+          )}
+
         </div>
       </div>
     </section>

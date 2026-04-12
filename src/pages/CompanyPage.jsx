@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
 import Showrooms from '../components/Showrooms';
@@ -192,7 +192,7 @@ const BranchLocationSection = () => {
           </div>
           {/* Right - Image (desktop) */}
           <div className="hidden md:block md:w-[45%] lg:w-[45%]">
-            <img src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=900&q=80" alt="Branch Locations" className="w-full h-auto" />
+            <img src="https://images.openai.com/static-rsc-4/WwZsXsZBaSPn5_PwtsbMpcbbpsvOMGCfyxo0gfPAdCHv5IXHucvSTxx3EKhFZyxwKlvEe9AtIdUWwhCtxxFOTMoZq1MqN-DH_CF_R9yiwvP45hEoDta2_4E6B30GA28vIzZwgtU40uV5dQrFV1chmAfmnGm1Bd4QnmLW1VNoW3R7HSSjRebofmR1Bs4ZxqRk?purpose=fullsize" alt="Branch Locations" className="w-full h-auto" />
           </div>
         </div>
       </div>
@@ -326,7 +326,7 @@ const CompanyPage = () => {
             {/* Info */}
             <div className="max-w-[1100px] mx-auto">
               <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] text-justify">
-                Our factory is well equipped with state-of-the-art German machinery and periodical improvements to meet modern furnishing trends. D{'\u2019'}LIFE has 350,000 square feet factory space to process and assemble{' '}
+                Our factory is well equipped with state-of-the-art German machinery and periodical improvements to meet modern furnishing trends. Woodland Furniture has 350,000 square feet factory space to process and assemble{' '}
                 <Link to="/modular-kitchen" className="text-[#814882] hover:underline">modular kitchen</Link>{' '}
                 and other furniture as per the design. Systematic manufacturing and assembling procedures ensure the best output to match the drawings. Similarly, factory managers schedule the works as per the date of execution and site status. Managers, supervisors, and technicians, in each process, strive to give the best result in complete co-operation.
               </p>

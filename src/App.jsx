@@ -23,6 +23,9 @@ import OffersPage from './pages/OffersPage';
 import ProjectsPage from './pages/ProjectsPage';
 import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
+import BlogDetailPage from './pages/BlogDetailPage';
+
 
 const App = () => {
   return (
@@ -49,6 +52,9 @@ const App = () => {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogDetailPage />} />
+
         </Routes>
         <Footer />
         <FloatingContact />

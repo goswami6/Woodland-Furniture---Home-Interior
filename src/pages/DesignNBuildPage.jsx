@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const timelineSteps = [
   { icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='%23814882'%3E%3Cpath d='M32 12c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 16c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm16 8c-3.3 0-6 2.7-6 6v2c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2v-2c0-7.7-8-6-10-6H48zM16 36c-3.3 0-10 1.7-10 6v2c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2v-2c0-4.3-6.7-6-10-6H16z'/%3E%3C/svg%3E", label: 'Talk to our Interior Designer & Get an Estimate' },
@@ -12,7 +12,7 @@ const processSteps = [
   {
     id: 'design',
     title: 'Design',
-    image: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=900&q=80',
+    image: 'https://images.openai.com/static-rsc-4/YvGqf7oNx1Lyr9M7j-qNBulszfre6hmwMrpyNTlanbeYwRzWYtS6k4GseLqlkoE8uO_eyMlgJWy174_NQheNcS907a7xrqeTAUODfsMRjFUhrqJ7T-XxInDpyMsWQSEShEOqaew24P3gvWn42bKAjrROAOQlKo7KE_k1kAyL9uqLjZLgCfSZWdmrztu7r5fm?purpose=fullsize',
     items: [
       'Project is allocated to a designer with clear instructions from the business development manager who initially deals with the client.',
       'Study the requirements in detail: In discussion with the client, with the help of floor plan, designer understands the space and requirements carefully.',
@@ -25,7 +25,7 @@ const processSteps = [
   {
     id: 'production',
     title: 'Production',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=900&q=80',
+    image: 'https://images.openai.com/static-rsc-4/c9GB9z-Nuq7APZVLCoL4O_Vst4E-P9hLh-V_Cs8KHH2gZRbxCnT29mT5-w3PhK-9DpZslrFlBAr4uaSSqdE5589HcGcUkipe1XJdXKXJ6AIf0mqHTQ0v9zI0kmHuReIbpJqjfEzzB_nBeA2e7SSxSkjIYNqCBeECpEQ5VTUHsY-exNK6tdztGPnKfG1DX3rJ?purpose=fullsize',
     items: [
       'Clarifications and confirmations made between factory manager and designer.',
       'A revisit to the house/ flat is made to repeat the actual measurements to confirm it with drawings received in the factory.',
@@ -109,7 +109,7 @@ const DesignNBuildPage = () => {
           </div>
           <div className="max-w-[1100px] mx-auto mb-10 sm:mb-12 md:mb-14">
             <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] text-justify">
-              Complete customization by qualified and experienced interior designers assigned to the client is the system of D{'\u2019'}LIFE. We provide complete solutions to your interiors including sharp and focused spatial planning, interior design, furnishings, and decoration. First we make the design in discussion with the client, get approval and then build it exactly as per plan. Each branch has expert designers, working closely with clients in cooperation with business development managers, factory and project installation team.
+              Complete customization by qualified and experienced interior designers assigned to the client is the system of Woodland Furniture. We provide complete solutions to your interiors including sharp and focused spatial planning, interior design, furnishings, and decoration. First we make the design in discussion with the client, get approval and then build it exactly as per plan. Each branch has expert designers, working closely with clients in cooperation with business development managers, factory and project installation team.
             </p>
           </div>
 

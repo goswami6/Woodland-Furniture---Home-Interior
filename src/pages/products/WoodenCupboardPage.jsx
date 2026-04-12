@@ -5,19 +5,19 @@ import WhyChooseSection from '../../components/WhyChooseSection';
 
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80', alt: 'Swing door wardrobe' },
+  { src: 'https://images.openai.com/static-rsc-4/4SwHPfVQDxYZOeSxe_cyWqbw4mP4EYrtp426tsXm86SBVIjMsvMYe9EraWd63dSu0vXB0pnGB1j4B-XpL6gwu0tlbGQiGjeW7KLvL6oVWlkNcGTY0PeBgaeRPtHQNSA610qZAqTYnXHkK7_cwB4L2HtkbHY4jvatpZkSIs4wY8bQdmbP_KD8XtKo6swt02Q6?purpose=fullsize', alt: 'Swing door wardrobe' },
   { src: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=800&q=80', alt: 'Sliding wardrobe design' },
   { src: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&q=80', alt: 'Walk-in closet' },
-  { src: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?w=800&q=80', alt: 'Loft cupboard storage' },
-  { src: 'https://images.unsplash.com/photo-1616137466211-f02fc81d3b?w=800&q=80', alt: 'Bedroom wardrobe interior' },
+  { src: 'https://images.openai.com/static-rsc-4/FWEfxnEMEhwrUvN7tpwHqWo3NF0wYSlAP81XFYpC8VS6T6eQW3qeCvD3TcGNY4KjX6vrMFvK4zAqKQjiW_WKfmz39MWIwAK4rhUJmiBzQqIAK4-AEfG64__yWBGdJTUtUjxZU7jJjhioxfvUypRK3xZcDzL3ys_SsOpxezEtcDRubBinvzPdF7GWuf5k1XrI?purpose=fullsize', alt: 'Loft cupboard storage' },
+  { src: 'https://images.openai.com/static-rsc-4/Woc_V99cZvbWVEBFsVPCobqDiHcswcyQY1zvYFlDpX8UCotnvrhmd31aDlypndBngvN3sEbKxC6Gtxivb8GYH-TRlqJZlVIGDhGZw1A0sYqOlKj048gehXwtxjb58Xko6HOx9yXgU_iGK53Ehh6lVd7Y42kDNRNjNWZ-knot-yMrENK7uA-J8neFooODaFJy?purpose=fullsize', alt: 'Bedroom wardrobe interior' },
   { src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80', alt: 'Custom cupboard finish' },
 ];
 
 const cupboardTypes = [
-  { name: 'SWING DOOR', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80' },
+  { name: 'SWING DOOR', img: 'https://images.openai.com/static-rsc-4/NXFCNgiljZllc00QmZZmU_-S_ZoUkPCXfDESg5hRNCdpEs2bhKrc95cW83ugk7ScqcHk5vinU1MPDWMwS7xXClMc7hgdQ0p_MhgvybVxqrK5SuboyFJCytnRiIi-B46mA-RegmTb59C4B_4wpAYTv4QtbmpgrKnfLwACxnaCifB9n-_DxqnHgJajEWqHpAil?purpose=fullsize' },
   { name: 'SLIDING', img: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80' },
   { name: 'WALK-IN', img: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=600&q=80' },
-  { name: 'LOFT', img: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?w=600&q=80' },
+  { name: 'LOFT', img: 'https://images.openai.com/static-rsc-4/FWEfxnEMEhwrUvN7tpwHqWo3NF0wYSlAP81XFYpC8VS6T6eQW3qeCvD3TcGNY4KjX6vrMFvK4zAqKQjiW_WKfmz39MWIwAK4rhUJmiBzQqIAK4-AEfG64__yWBGdJTUtUjxZU7jJjhioxfvUypRK3xZcDzL3ys_SsOpxezEtcDRubBinvzPdF7GWuf5k1XrI?purpose=fullsize' },
 ];
 
 const features = [
@@ -84,7 +84,7 @@ const WoodenCupboardPage = () => {
         <div className="w-full max-w-full px-5 min-[468px]:px-8 sm:px-10 md:px-[80px] lg:px-[100px] mx-auto xl:px-0">
           <div className="flex flex-wrap xl:flex-row-reverse">
             <div className="w-full xl:w-1/2 max-[468px]:hidden" style={fadeStyle('intro', 0)}>
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=900&q=80" alt="Wooden Cupboard" className="w-full h-full object-cover max-h-[260px] lg:max-h-[450px] xl:max-h-none" loading="lazy" />
+              <img src="https://images.openai.com/static-rsc-4/4SwHPfVQDxYZOeSxe_cyWqbw4mP4EYrtp426tsXm86SBVIjMsvMYe9EraWd63dSu0vXB0pnGB1j4B-XpL6gwu0tlbGQiGjeW7KLvL6oVWlkNcGTY0PeBgaeRPtHQNSA610qZAqTYnXHkK7_cwB4L2HtkbHY4jvatpZkSIs4wY8bQdmbP_KD8XtKo6swt02Q6?purpose=fullsize" alt="Wooden Cupboard" className="w-full h-full object-cover max-h-[260px] lg:max-h-[450px] xl:max-h-none" loading="lazy" />
             </div>
             <div className="w-full xl:w-1/2 flex items-center content-center flex-wrap py-10 sm:py-[45px] xl:py-[25px] px-5 min-[468px]:px-8 sm:px-10 md:px-[40px] lg:px-[50px] xl:px-[30px] justify-center" style={fadeStyle('intro', 0.15)}>
               <div className="w-full">

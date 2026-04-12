@@ -1,11 +1,11 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const projectCards = [
   {
     title: 'VIDEO GALLERY',
     image: 'https://images.unsplash.com/photo-1600210491369-e753d80a41f3?w=800&q=80',
-    description: 'Watch our interior design videos showcasing complete home transformations, modular kitchen installations, and expert design consultations by D{\'\\u2019\'}LIFE professionals.',
+    description: 'Watch our interior design videos showcasing complete home transformations, modular kitchen installations, and expert design consultations by WOODLAND FURNITURE & HOME INTERIOR professionals.',
     link: '/projects',
     hasPlayBtn: true,
   },
@@ -133,7 +133,7 @@ const GalleryPage = () => {
               Actual Project Photographs
             </h4>
             <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] mt-4 max-w-[900px] mx-auto">
-              With over 19 years of expertise in residential interiors, D{'\u2019'}LIFE has transformed thousands of homes across India.
+              With over 19 years of expertise in residential interiors, Woodland Furniture has transformed thousands of homes across India.
               Browse our gallery to see real project photographs — from modular kitchens and bedrooms to living rooms and complete home interiors.
             </p>
           </div>

@@ -9,15 +9,15 @@ const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1596204976717-1a9ff47f74ef?w=800&q=80', alt: 'Sheer curtains' },
   { src: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80', alt: 'Roman blinds' },
   { src: 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=800&q=80', alt: 'Double layer curtains' },
-  { src: 'https://images.unsplash.com/photo-1600566753376-e76e0e146c5b?w=800&q=80', alt: 'Living room curtains' },
-  { src: 'https://images.unsplash.com/photo-1507473885765-e6ed057ab219?w=800&q=80', alt: 'Bedroom drapes' },
+  { src: 'https://images.openai.com/static-rsc-4/HI3driacP5YqEGWyd01nDtAl46aCCVVRIILmdUZhOE0vz9ESLNYD0pGEYRO7grBVdKPteZaINf7DDEytZM8LYXW_HqnY2pQIKZ2sG9Aek40U_QZVeDKe6f-g6OQmDY0c653uVeqrq78abuQjN7OiwsnvxiziasmiUCLnicXR1nVTt-rWh89hosubiDu_d0CW?purpose=fullsize', alt: 'Living room curtains' },
+  { src: 'https://images.openai.com/static-rsc-4/T-hD_1tIf6CW5WmfngP_69YH7VHrDsVYsmWBH0-kO79e2WjITmyvNsFuCROSpoiDtDTUX2Ch2uxqjLJwlyKDbNkp1xBrtk3nT8hgM4FWHko8zywXt07f98qY5XMolTcYHOd72DSXxDSaWImOhh6-E9k65Eel-N3QXNzm4lnhbpzaCFnYx-whkiC1wIEy71vs?purpose=fullsize', alt: 'Bedroom drapes' },
 ];
 
 const curtainTypes = [
   { name: 'BLACKOUT', img: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80' },
-  { name: 'SHEER', img: 'https://images.unsplash.com/photo-1600566753376-e76e0e146c5b?w=600&q=80' },
+  { name: 'SHEER', img: 'https://images.openai.com/static-rsc-4/8E0ypaL_ctGojeFgpQkuC8mzncB-f-hpIei4BPJu-lbWaIXvBZAIOWEBXJIN1SC4uT4_14K8rvfs3P1KlBlTDVOkEC5rXlNXr7ootJ3O0rb370fkE2wUMT5A5tDZqTb1sobB-Mt4PyK-b0zuOhdbEdLt5I1siEHhUcyBkNwYj6CmdcgfgkH2AFej1KnA63Rf?purpose=fullsize' },
   { name: 'ROMAN BLINDS', img: 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=600&q=80' },
-  { name: 'DOUBLE LAYER', img: 'https://images.unsplash.com/photo-1507473885765-e6ed057ab219?w=600&q=80' },
+  { name: 'DOUBLE LAYER', img: 'https://images.openai.com/static-rsc-4/iwWrxWrltN2p2DrYr2h88eDMNQsgC_1rg07Cv2dqqvaaT1CvuDGWkteKmXKxuJAY40Zo-wY13TrHGAyaRhX23EipXlGf9qjoOwB7rganLC00VgE5tDkkVLwklgXm9znUe0t-4Of_AolWWobcwuGR9ZDAbYJJCzpLs6rwz94Lo09NLHhraonzTPK5fl7Q0fbe?purpose=fullsize' },
 ];
 
 const features = [

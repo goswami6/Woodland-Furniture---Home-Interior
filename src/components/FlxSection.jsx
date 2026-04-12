@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const sections = [
   {
-    image: 'https://images.unsplash.com/photo-1616137466211-f02fc81d5e3b?w=900&q=80',
+    image: 'https://images.openai.com/static-rsc-4/0a25QX2Y9aASC6HW8j4bcKZYHfiL8QVwuIPLmEkCxPGov0k1ALvnmLMeW8Bxo4l49Bu7B5wv2uVCb5yRjGIfXMEDiiuvLUulRWSs1vJrK-l0eTu7NvIgtSkC8bwZLHVjLhIou8-DjkTPyoiEV1EA3qac8CzLlAzh6So8IjBH8Wt92y_gIrV4lMRLIA36aFsP?purpose=fullsize',
     deskHead: 'Custom Furniture & Home Interior Designers in Pune',
     mobHead: ['FURNITURE & INTERIOR', 'DESIGNERS IN PUNE'],
     text: `Woodland Furniture & Home Interiors are the best manufacturer of all types of Furniture & doing Interior designing since 2014, having very good service ratings in Kothrud, Pune. We do complete interior, customised furniture is also made here with best quality assurance. We work in Teak-wood (Sagwan) & Commercial Plywood. We also do Modular Furniture with 3D design. Our working criteria is first we visit the site, then we give the client a layout, then according to client demand we do 3D design first to make our client satisfied with what work is going to be done.`,
     showCta: false,
   },
   {
-    image: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?w=900&q=80',
+    image: 'https://images.openai.com/static-rsc-4/emHBov87NdVCdqky0zt3h3EVaASI4ZDpsiciRMF3SdSF88ZHXAJip7rNDVxglGLAVVE-aOQpAxwigOMYhPvv-1_sr4FLU7spAs1O4AEZIdQvhtz2KPp0A-u6aC9z_1FqjD_UytNIEnzbVaeTCPcRs1txHWFn_pLOq1o6URzHjTtCYHppqBqRv3XG6XQ6iHbg?purpose=fullsize',
     deskHead: 'CUSTOM-MADE HOME INTERIORS',
     mobHead: null,
     text: `Since 2014, we have been transforming the essence of home interiors in Pune. Our expertise goes beyond aesthetics to include thoughtful designs that reflect style and functionality. Our dedicated team of interior designers understands the need for space and functionality, and offers customers exactly what they need. We provide complete furnishing for beautiful home interiors including modular kitchen furnishing, living and dining, bedroom interiors, wooden sofa sets, cupboards, dining tables, modular mandirs and curtains to help bring your dream to life. If you would like to find out more about the interior solutions we offer then just contact us, and our designers will be in touch.`,

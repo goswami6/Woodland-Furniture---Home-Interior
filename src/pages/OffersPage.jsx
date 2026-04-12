@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const packageCards = [
@@ -118,7 +118,7 @@ const OffersPage = () => {
           </div>
           <div className="max-w-[950px] mx-auto">
             <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] text-justify">
-              D{'\u2019'}LIFE Home interior packages and offers are not limited to better factory price. Our commitment is for the wholehearted efforts to design, produce and implement suitable interior furnishing to match your dream. The whole team is trained and qualified to execute the order. We work on the selected home interior package, and customize it further as per client requirements. Because, each customer has unique needs, therefore, each of them requires custom designs for home.
+              Woodland Furniture Home interior packages and offers are not limited to better factory price. Our commitment is for the wholehearted efforts to design, produce and implement suitable interior furnishing to match your dream. The whole team is trained and qualified to execute the order. We work on the selected home interior package, and customize it further as per client requirements. Because, each customer has unique needs, therefore, each of them requires custom designs for home.
             </p>
           </div>
         </div>
@@ -311,7 +311,7 @@ const OffersPage = () => {
           </div>
           <div className="max-w-[950px] mx-auto mb-10 sm:mb-12">
             <p className="text-[14px] sm:text-[15px] text-[#4c4c4c] leading-[1.9] text-justify">
-              D{'\u2019'}LIFE Home interior packages and offers are not limited to better factory price. Our commitment is for the wholehearted efforts to design, produce and implement suitable interior furnishing to match your dream. The whole team is trained and qualified to execute the order. We work on the selected home interior package, and customize it further as per client requirements. Because, each customer has unique needs, therefore, each of them requires custom designs for home interior. For example, there are situations where you like the overall home interior package, but do not want a particular item from the package. In situations like this, customization provides an option to remove the item from the package and select one that is more suitable for your needs. Likewise, changes and additions are possible as per measurement by paying extra charges. We will make it to fit your budget.
+              Woodland Furniture Home interior packages and offers are not limited to better factory price. Our commitment is for the wholehearted efforts to design, produce and implement suitable interior furnishing to match your dream. The whole team is trained and qualified to execute the order. We work on the selected home interior package, and customize it further as per client requirements. Because, each customer has unique needs, therefore, each of them requires custom designs for home interior. For example, there are situations where you like the overall home interior package, but do not want a particular item from the package. In situations like this, customization provides an option to remove the item from the package and select one that is more suitable for your needs. Likewise, changes and additions are possible as per measurement by paying extra charges. We will make it to fit your budget.
             </p>
           </div>
 
