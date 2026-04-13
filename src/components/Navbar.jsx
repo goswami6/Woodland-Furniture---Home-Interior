@@ -127,11 +127,11 @@ const Navbar = () => {
         {/* Main Navigation */}
         <div className={`flex items-center justify-between transition-[padding] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${scrolled ? 'px-4 sm:px-8 lg:px-8 xl:px-12' : 'px-4 sm:px-8 lg:px-10 xl:px-[70px]'}`}>
           {/* Logo */}
-          <Link to="/" className="flex items-center py-2.5 lg:py-3 relative z-10">
+          <Link to="/" className="flex items-center py-4 lg:py-6 relative z-10">
             <img
               src="/images/woodland-logo.png"
               alt="Woodland Furniture & Home Interior"
-              className={`w-auto transition-[height] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${scrolled ? 'h-[42px] sm:h-[48px] lg:h-[52px]' : 'h-[48px] sm:h-[55px] lg:h-[62px] xl:h-[68px]'}`}
+              className={`w-auto transition-[height] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${scrolled ? 'h-[50px] sm:h-[56px] lg:h-[60px]' : 'h-[60px] sm:h-[70px] lg:h-[80px] xl:h-[85px]'}`}
             />
           </Link>
 
@@ -146,7 +146,7 @@ const Navbar = () => {
               >
                 <Link
                   to={link.path}
-                  className={`relative flex items-center gap-1 px-[10px] xl:px-[14px] 2xl:px-[16px] py-5 text-[13px] xl:text-[13.5px] 2xl:text-[14px] font-medium uppercase tracking-[0.5px] transition-all duration-300 whitespace-nowrap group ${isActive(link.path)
+                  className={`relative flex items-center gap-1 px-[10px] xl:px-[14px] 2xl:px-[16px] py-7 text-[14.5px] xl:text-[15px] 2xl:text-[15.5px] font-medium uppercase tracking-[0.5px] transition-all duration-300 whitespace-nowrap group ${isActive(link.path)
                     ? 'text-[#814882]'
                     : `${textColor} ${hoverColor}`
                     }`}
@@ -210,7 +210,7 @@ const Navbar = () => {
             {/* Free Estimate CTA */}
             <Link
               to="/contact"
-              className={`ml-3 relative overflow-hidden flex items-center justify-center rounded-full h-[36px] px-6 text-[12px] font-semibold uppercase tracking-[1px] transition-all duration-500 ${scrolled
+              className={`ml-3 relative overflow-hidden flex items-center justify-center rounded-full h-[46px] px-8 text-[13px] font-semibold uppercase tracking-[1px] transition-all duration-500 ${scrolled
                 ? 'bg-[#814882] text-white hover:bg-[#6a3a6b] shadow-[0_4px_15px_rgba(129,72,130,0.3)]'
                 : 'bg-white/15 backdrop-blur-sm text-white border border-white/30 hover:bg-[#814882] hover:border-[#814882]'
                 }`}

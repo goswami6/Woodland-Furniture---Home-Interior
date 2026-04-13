@@ -4,15 +4,14 @@ const VideoSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   // 👉 Use your own thumbnail (no watermark)
-  const thumbnailUrl =
-    'https://images.openai.com/static-rsc-4/CEAIXnpUDBS7-0ejCNeTQVGWa3ViSZ1z2EBPqhw0y6BHQOwoAm1SvcvjZsFGfnSUDslYOd-4lTR02MJmYLoSiwlMKXpZfL2_r4LsN0xn1gug4-MnJnbf2erkaxA9DXTrXC_M89pe3vezQEx7RIthUPnryggSVt5Be8ZyLlqlbdWyqqaWkTeJL7kimSMnYv0W?purpose=fullsize';
+  const thumbnailUrl = '/images/video_thumbnail.png';
 
-  const videoId = 'qbGDyBQ2_Pw';
+  const videoId = 'EuWIN_VNirM';
 
   return (
     <section id="videoSec" className="relative py-10">
       <div className="w-full px-5 md:px-[60px] min-[1441px]:px-[100px] mx-auto">
-        
+
         <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
 
           {/* ================= THUMBNAIL ================= */}
